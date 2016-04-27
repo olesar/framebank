@@ -9,6 +9,7 @@ License: GNU GPL 3.0
 Genre: fiction news nonfiction science technology religion spoken
 Contributors: Lyashevskaya, Olga; Kashkin, Egor; Kudinov, Mikhail; Grishina, Yulia; Kuznetsova, Julia; Solonina, Ekaterina; Koroleva, Anna; Belova, Maria; Petrenko, Anna; Rusanova, Anna; Pyatykhina, Alexandra-Maria; Philippova, Alexandra; Shayakhmetova, Elena; Chudinova, Anna; Zhadaev, Nikita; Shapiro, Maria; Polyanskaya, Lyubov; Sudarikova, Eugenia; Tarasov, Arseny; Minkevich, Boris; Buturlakina, Anastasia; Kapanina, Victoria; Deputatov, Eduard; Makasheva, Zarina; Blazhievskaya, Alexandra; Lityagina, Anna; Stepanova, Daria; Bobrova, Margarita; Astafieva, Irina; Azerkovich, Ilya; Zverev, Alexey; Abdurashitiva, Galina; many other students at the School of Linguistics, Higher School of Economics, Lomonosov Moscow State University, Russian State University for the Humanities; Sholokhov Moscow State University for the Humanities (Moscow, Russia)
 Affiliation: Vinogradov Russian Language Institute RAS (Moscow); National Research University Higher School of Economics (Moscow)
+
 ===============================================================================
 
 === About =====================================================================
@@ -16,6 +17,7 @@ The Russian FrameBank is a spin-off of the Russian National Corpus. It further e
 Russian FrameBank can be used as a training resource for semantic role labeling (SRL), machine translation (MT), question answering (QA), and other applications like natural language processing (NLP), information retrieval (IR), and text generation (TG). 
 Online version of the Russian FrameBank is available at: http://framebank.ru. 
 Annotation guidelines are available at: http://framebank.wikispaces.com/ (in Russian). 
+
 ===============================================================================
 
 === References ================================================================
@@ -31,6 +33,7 @@ In Russian:
 * Lyashevskaya, Olga, and Egor Kashkin. 2015b. Tipy informacii o leksicheskikh konstrukcijakh v sisteme FrameBank [Annotation of lexical constructions in Russian FrameBank]. In Trudy Instituta russkogo jazyka imeni V.V.Vinogradova [Proceedings of Vinogradov Institute of the Russian Language]. Vol. 6, 2015. Pp. 464-555. PDF: http://goo.gl/eeWGNF
 
 COPYRIGHT NOTICE: The copyright of the texts used in the FrameBank samples belongs to their authors. The authors cited here (or their heirs) are kindly asked to contact olesar@yandex.ru in case they do not want their texts to be used in the Russian FrameBank.
+
 ===============================================================================
 
 === Index of tables (offline release) =========================================
@@ -50,6 +53,7 @@ Supplementary materials:
 3.1  framebank_roles.txt -- a list of semantic roles
 
 RELEASE NOTES: A lot of information on word coordinates, word order, sentences underlying annotation, document properties such as author, creation time, register etc. is not available in the current offline release. Please contact olesar@yandex.ru of you need these data.
+
 ===============================================================================
 
 === Table structure ===========================================================
@@ -122,6 +126,7 @@ ExIndex: example ID
 
 === Feedback ==================================================================
 Any feedback on annotation errors and possible improvements (taking into consideration your particular task) is much welcome. Use olesar@yandex.ru to share your experience with the Russian FrameBank.
+
 ===============================================================================
 
 === Other resources for Russian NLP ===========================================
@@ -129,6 +134,7 @@ Russian National Corpus: http://ruscorpora.ru
 NLPub, a catalogue of resources available for Russian and other languages: https://nlpub.ru/
 RU-EVAL, Russian NLP evaluation resources: http://ru-eval.ru
 Univesal Dependencies for Russian: http://universaldependencies.org/
+
 ===============================================================================
 
 @ Russian FrameBank v.1.0, 2016
