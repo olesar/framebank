@@ -131,9 +131,10 @@ RELEASE NOTES: Due to the large size (ca. 500 MB) this table is available from t
 ===
 3.1  framebank_roles.txt -- a list of semantic roles
 ===
-
- TBA soon
-
+Header = {Role}
+Role: semantic role (explication)
+NOTES: Includes core roles (ca. 100-150 roles), metaphorical roles, mixed roles, double roles, and double mixed roles.
+"Mixed roles" are those where the participant plays both roles simultaniously. "Double roles" are those where the participant plays either one role or another depending on the situation. 
 
 
 === Feedback ==================================================================
