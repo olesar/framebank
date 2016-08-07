@@ -1,10 +1,10 @@
 Russian FrameBank. Offline version
 
 === Machine-readable metadata =================================================
-Title: Russian FrameBank v.1.0
+Title: Russian FrameBank v.1.1
 Documentation status: partial
 Data source: manual
-Data available since: 2016-04-26
+Data available since: 2016-08-07
 License: GNU GPL 3.0
 Genre: fiction news nonfiction science technology religion spoken
 Contributors: Lyashevskaya, Olga; Kashkin, Egor; Kudinov, Mikhail; Grishina, Yulia; Kuznetsova, Julia; Solonina, Ekaterina; Koroleva, Anna; Belova, Maria; Petrenko, Anna; Rusanova, Anna; Pyatykhina, Alexandra-Maria; Philippova, Alexandra; Shayakhmetova, Elena; Chudinova, Anna; Zhadaev, Nikita; Shapiro, Maria; Polyanskaya, Lyubov; Sudarikova, Eugenia; Tarasov, Arseny; Minkevich, Boris; Buturlakina, Anastasia; Kapanina, Victoria; Deputatov, Eduard; Makasheva, Zarina; Blazhievskaya, Alexandra; Lityagina, Anna; Stepanova, Daria; Bobrova, Margarita; Astafieva, Irina; Azerkovich, Ilya; Zverev, Alexey; Abdurashitiva, Galina; many other students at the School of Linguistics, Higher School of Economics, Lomonosov Moscow State University, Russian State University for the Humanities; Sholokhov Moscow State University for the Humanities (Moscow, Russia)
@@ -46,11 +46,13 @@ Two main parts of the Russian FrameBank include:
 1.1. framebank_dict_cx_items.txt -- a dictionary of constructions: construction elements
 1.2. framebank_dict_cx_index.txt -- a dictionary of constructions: conscruction properties
 
-2.1. framebank_dict_ex_items.txt -- annotated samples: core frame elements
-2.2  framebank_dict_ex_circ.txt -- annotated samples: non-core frame elements
+2.1. framebank_dict_ex_items.txt -- annotated samples: core frame elements annotation
+2.2  framebank_dict_ex_circ.txt -- annotated samples: non-core frame elements annotation
+
+3.1  exampleindex.csv -- samples used, provided with lexico-grammatical and (sometimes) semantic groups annotation (RNC). Available from: https://cloud.mail.ru/public/5448/GWbqFPnwN
 
 Supplementary materials:
-3.1  framebank_roles.txt -- a list of semantic roles
+4.1  framebank_roles.txt -- a list of semantic roles 
 
 RELEASE NOTES: A lot of information on word coordinates, word order, sentences underlying annotation, document properties such as author, creation time, register etc. is not available in the current offline release. Please contact olesar@yandex.ru of you need these data.
 
@@ -82,7 +84,7 @@ TBA soon
 
 
 ===
-2.1. framebank_dict_ex_items.txt -- annotated samples: core frame elements
+2.1. framebank_dict_ex_items.txt -- annotated samples: core frame elements annotation
 ===
 Header = {KeyLexemes,ConstrIndex,Place,PhraseGen,WordDep,Form,Role,Rank,Sem,Rea,ExIndex,ItemExIndex}
 
@@ -104,7 +106,7 @@ RELEASE NOTES: Some core frame elements has not been fully tagged in v.1.0.
 
 
 ===
-2.2  framebank_dict_ex_circ.txt -- annotated samples: non-core frame elements
+2.2  framebank_dict_ex_circ.txt -- annotated samples: non-core frame elements annotation
 ===
 Header = {KeyLexemes,ConstrIndex,PlaceC,Phrase,Form,Role,ExIndex}
 KeyLexemes: lexical constants of the construction such as a verb for its valency pattern
@@ -115,6 +117,16 @@ Form: morphosyntactic features
 Role: semantic role
 ExIndex: example ID
 
+
+===
+3.1  exampleindex.csv -- samples used
+===
+Header = {ExIndex,Example}
+ExIndex: example ID
+Example: target sentence and its context, provided with lexico-grammatical and (sometimes) semantic groups annotation (RNC)
+
+NOTES: FrameBank tags are not embedded, please use core and non-core frame elements annotation above. There are at least five different types of RNC annotation style in different parts of the table.
+RELEASE NOTES: Due to the large size (ca. 500 MB) this table is available from the external repository.
 
 ===
 3.1  framebank_roles.txt -- a list of semantic roles
