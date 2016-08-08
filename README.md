@@ -78,9 +78,15 @@ NOTES: Some Roles are tagged as mixed roles (e.g. "Instrument - Place") or doubl
 RELEASE NOTES: The annotation in the SemClass column has not been checked properly in v.1.0 and may contain mistakes.
 
 ===
-1.2. framebank_dict_cx_index.txt -- a dictionary of constructions: conscruction properties
+1.2. framebank_dict_cx.txt -- a dictionary of constructions: conscruction properties
 ===
-TBA soon
+Header = {ConstrIndex,Constr,ConstrName,ConstrPattern,Example,Features}
+ConstrIndex: construction ID
+Constr: construction label (verb frameNo.patternNo) 
+ConstrName: a short typical example
+ConstrPattern: morphosyntactic pattern (valency pattern, idiom elements pattern)
+Example: one or more examples illustrating the use
+Features: aspectual etc. features
 
 
 ===
