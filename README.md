@@ -43,11 +43,11 @@ Two main parts of the Russian FrameBank include:
 1. A dictionary of lexical constructions
 2. A corpus of annotated samples
 
-1.1. framebank_dict_cx_items.txt -- a dictionary of constructions: construction elements
-1.2. framebank_dict_cx_index.txt -- a dictionary of constructions: conscruction properties
+1.1. framebank_dict_cx.txt -- a dictionary of constructions: conscruction properties
+1.2. framebank_dict_cx_items.txt -- a dictionary of constructions: construction elements
 
-2.1. framebank_dict_ex_items.txt -- annotated samples: core frame elements annotation
-2.2  framebank_dict_ex_circ.txt -- annotated samples: non-core frame elements annotation
+2.1. framebank_anno_ex_items.txt -- annotated samples: core frame elements annotation
+2.2  framebank_anno_ex_circ.txt -- annotated samples: non-core frame elements annotation
 
 3.1  exampleindex.csv -- samples used, provided with lexico-grammatical and (sometimes) semantic groups annotation (RNC). Available from: https://cloud.mail.ru/public/5448/GWbqFPnwN
 
@@ -60,17 +60,30 @@ RELEASE NOTES: A lot of information on word coordinates, word order, sentences u
 
 === Table structure ===========================================================
 ===
-1.1. framebank_dict_cx_items.txt -- a dictionary of constructions: construction elements
+1.1. framebank_dict_cx.txt -- a dictionary of constructions: conscruction properties
 ===
-Header = {KeyLexemes,ConstrIndex,Place,Form,Role,Rank,SemClass}
-
+Header = {ConstrIndex,Constr,ConstrName,ConstrPattern,Example,Features,KeyLexemes}
+ConstrIndex: construction ID
+Constr: construction label (verb frameNo.patternNo) 
+ConstrName: a short typical example
+ConstrPattern: morphosyntactic pattern (valency pattern, idiom elements pattern)
+Example: one or more examples illustrating the use
+Features: aspectual etc. features
 KeyLexemes: lexical constants of the construction such as a verb for its valency pattern
+
+
+===
+1.2. framebank_dict_cx_items.txt -- a dictionary of constructions: construction elements
+===
+Header = {ConstrIndex,Place,Form,Role,Rank,SemClass,KeyLexemes}
+
 ConstrIndex: construction ID
 Place: # of the element in the construction (usually mimics the so called "neutral" word order but not obligatory)
 Form: morphosyntactic features
 Role: semantic role
 Rank: syntactic rank (e.g. Subject, DirectObject, Periphery, Clause)
 SemClass: lexico-semantic constraints (e.g. Animate, InanimateConcrete, InanimateAbstract, Instrument, Sound, etc.)
+KeyLexemes: lexical constants of the construction such as a verb for its valency pattern
 
 Predicates and other lexical constants are listed as construction elements. Their roles are tagged as minus ("-"). The KeyLexemes column is provided mostly to support human assessment as it can be easily recovered from the other columns.
 
@@ -78,19 +91,7 @@ NOTES: Some Roles are tagged as mixed roles (e.g. "Instrument - Place") or doubl
 RELEASE NOTES: The annotation in the SemClass column has not been checked properly in v.1.0 and may contain mistakes.
 
 ===
-1.2. framebank_dict_cx.txt -- a dictionary of constructions: conscruction properties
-===
-Header = {ConstrIndex,Constr,ConstrName,ConstrPattern,Example,Features}
-ConstrIndex: construction ID
-Constr: construction label (verb frameNo.patternNo) 
-ConstrName: a short typical example
-ConstrPattern: morphosyntactic pattern (valency pattern, idiom elements pattern)
-Example: one or more examples illustrating the use
-Features: aspectual etc. features
-
-
-===
-2.1. framebank_dict_ex_items.txt -- annotated samples: core frame elements annotation
+2.1. framebank_anno_ex_items.txt -- annotated samples: core frame elements annotation
 ===
 Header = {KeyLexemes,ConstrIndex,Place,PhraseGen,WordDep,Form,Role,Rank,Sem,Rea,ExIndex,ItemExIndex}
 
@@ -112,7 +113,7 @@ RELEASE NOTES: Some core frame elements has not been fully tagged in v.1.0.
 
 
 ===
-2.2  framebank_dict_ex_circ.txt -- annotated samples: non-core frame elements annotation
+2.2  framebank_anno_ex_circ.txt -- annotated samples: non-core frame elements annotation
 ===
 Header = {KeyLexemes,ConstrIndex,PlaceC,Phrase,Form,Role,ExIndex}
 KeyLexemes: lexical constants of the construction such as a verb for its valency pattern
