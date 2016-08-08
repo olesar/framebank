@@ -90,14 +90,15 @@ Predicates and other lexical constants are listed as construction elements. Thei
 NOTES: Some Roles are tagged as mixed roles (e.g. "Instrument - Place") or double roles ("Instrument / Place"). The former means that the functional role of the element is both Instrument and Place while the latter means that the element can play either the role of Instrument ot the role of Place depending the context. The same rule applies to SemClass.
 RELEASE NOTES: The annotation in the SemClass column has not been checked properly in v.1.0 and may contain mistakes.
 
+
 ===
 2.1. framebank_anno_ex_items.txt -- annotated samples: core frame elements annotation
 ===
-Header = {KeyLexemes,ConstrIndex,Place,PhraseGen,WordDep,Form,Role,Rank,Sem,Rea,ExIndex,ItemExIndex}
-
-KeyLexemes: lexical constants of the construction such as a verb for its valency pattern
+Header = {ConstrIndex,ExIndex,Place,PhraseGen,WordDep,Form,Role,Rank,Sem,Rea,ItemExIndex,KeyLexemes}
+Header = {ConstrIndex,ExIndex,Place,PhraseGen,WordDep,Form,Role,Rank,Sem,Rea,ConstrExId,ItemExIndex,KeyLexemes}
 ConstrIndex: construction ID
-Place: # of the element in the construction
+ExIndex: example ID
+Place: No of the element in the construction
 PhraseGen: PP, NP or other syntactic phrase that refer to the core frame element
 WordDep: a head of PhraseGen (in quantifier phrases (QP), a content word is tagged, in PPs, a preposition + content noun are tagged)
 Form: morphosyntactic features
@@ -105,8 +106,9 @@ Role: semantic role
 Rank: syntactic rank (e.g. Subject, DirectObject, Periphery, Clause, Omitted, Moved)
 Sem: lexico-semantic class of WordDep (e.g. Animate, InanimateConcrete, InanimateAbstract, Instrument, Sound, etc.)
 Rea: class of (non)realisation (e.g. Standard; Passive, Imperative, GenNegation for standard morphosyntactic alernations; MentionedBefore, MentionedAfter, Impersonal, IndefinitePersonal, Generalized, etc. for omitted elements; ControlOrRaise, MentionedBefore, MentionedAfter for elements not directly related to the predicate syntactically) 
-ExIndex: example ID
-ItemExIndex: example-construction match ID
+ConstrExId: example-construction match ID
+ItemExIndex: unique ID for this table
+KeyLexemes: lexical constants of the construction such as a verb for its valency pattern
 
 NOTES: Predicates and other lexical constants are listed as construction elements. Their roles are tagged as minus ("-"). Their PhraseGens are tagged as "N/A".
 RELEASE NOTES: Some core frame elements has not been fully tagged in v.1.0.
@@ -115,14 +117,16 @@ RELEASE NOTES: Some core frame elements has not been fully tagged in v.1.0.
 ===
 2.2  framebank_anno_ex_circ.txt -- annotated samples: non-core frame elements annotation
 ===
-Header = {KeyLexemes,ConstrIndex,PlaceC,Phrase,Form,Role,ExIndex}
-KeyLexemes: lexical constants of the construction such as a verb for its valency pattern
+Header = {ConstrIndex,ExIndex,PlaceC,Phrase,Form,Role,Type,KeyLexemes}
 ConstrIndex: construction ID
-PlaceC: # of the element in the construction
+ExIndex: example ID
+PlaceC: No of the element in the construction
 Phrase: PP, NP or other syntactic phrase that refer to the non-core frame element
 Form: morphosyntactic features
 Role: semantic role
-ExIndex: example ID
+Type = {Circum,Modal,Gram,Control}
+Circum: circumstances(adjuncts), Modal: modal (incl. negation) and speech navigating words, Gram: grammatical markers in the analytical forms of target words (cf. by, budu, etc.), Control: dependency heads of the target words which can syntactically control Subject, Object, etc.
+KeyLexemes: lexical constants of the construction such as a verb for its valency pattern
 
 
 ===
