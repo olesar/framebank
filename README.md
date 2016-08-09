@@ -94,7 +94,6 @@ RELEASE NOTES: The annotation in the SemClass column has not been checked proper
 ===
 2.1. framebank_anno_ex_items.txt -- annotated samples: core frame elements annotation
 ===
-Header = {ConstrIndex,ExIndex,Place,PhraseGen,WordDep,Form,Role,Rank,Sem,Rea,ItemExIndex,KeyLexemes}
 Header = {ConstrIndex,ExIndex,Place,PhraseGen,WordDep,Form,Role,Rank,Sem,Rea,ConstrExId,ItemExIndex,KeyLexemes}
 ConstrIndex: construction ID
 ExIndex: example ID
