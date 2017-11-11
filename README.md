@@ -1,55 +1,56 @@
 Russian FrameBank. Offline version
 
-=== Machine-readable metadata =================================================
-Title: Russian FrameBank v.1.1
-Documentation status: partial
-Data source: manual
-Data available since: 2016-08-07
-License: GNU GPL 3.0
-Genre: fiction news nonfiction science technology religion spoken
+=== Machine-readable metadata =================================================  
+Title: Russian FrameBank v.1.1  
+Documentation status: partial  
+Data source: manual  
+Data available since: 2016-08-07  
+License: GNU GPL 3.0  
+Genre: fiction news nonfiction science technology religion spoken  
 Contributors: Lyashevskaya, Olga; Kashkin, Egor; Kudinov, Mikhail; Grishina, Yulia; Kuznetsova, Julia; Solonina, Ekaterina; Koroleva, Anna; Belova, Maria; Petrenko, Anna; Rusanova, Anna; Pyatykhina, Alexandra-Maria; Philippova, Alexandra; Shayakhmetova, Elena; Chudinova, Anna; Zhadaev, Nikita; Shapiro, Maria; Polyanskaya, Lyubov; Sudarikova, Eugenia; Tarasov, Arseny; Minkevich, Boris; Buturlakina, Anastasia; Kapanina, Victoria; Deputatov, Eduard; Makasheva, Zarina; Blazhievskaya, Alexandra; Lityagina, Anna; Stepanova, Daria; Bobrova, Margarita; Astafieva, Irina; Azerkovich, Ilya; Zverev, Alexey; Abdurashitiva, Galina; many other students at the School of Linguistics, Higher School of Economics, Lomonosov Moscow State University, Russian State University for the Humanities; Sholokhov Moscow State University for the Humanities (Moscow, Russia)
-Affiliation: Vinogradov Russian Language Institute RAS (Moscow); National Research University Higher School of Economics (Moscow)
+Affiliation: Vinogradov Russian Language Institute RAS (Moscow); National Research University Higher School of Economics (Moscow)  
 
-===============================================================================
+===============================================================================  
 
-=== About =====================================================================
-The Russian FrameBank is a spin-off of the Russian National Corpus. It further enriches the samples taken from the Main and Spoken Corpora with the annotation of frames, semantic roles, lexico-semantic constraints, and morphosyntactic structures constituting a lexical constructions with a given verb, noun, adjective or adverb. A typical example of the lexical construction is a predicate argument structure (valency pattern), e.g. Peter came to the party. We also document cases when the arguments are omitted or expressed outside their VP (or other predicate phrase), i.e. not syntactically related to their predicate directly. In addition, the non-core elements of frames such as adverbial adjuncts, negation, modal words, discursive particles are tagged within the sentence.
-Russian FrameBank can be used as a training resource for semantic role labeling (SRL), machine translation (MT), question answering (QA), and other applications like natural language processing (NLP), information retrieval (IR), and text generation (TG). 
-Online version of the Russian FrameBank is available at: http://framebank.ru. 
-Annotation guidelines are available at: http://framebank.wikispaces.com/ (in Russian). 
+=== About =====================================================================  
+The Russian FrameBank is a spin-off of the Russian National Corpus. It further enriches the samples taken from the Main and Spoken Corpora with the annotation of frames, semantic roles, lexico-semantic constraints, and morphosyntactic structures constituting a lexical constructions with a given verb, noun, adjective or adverb. A typical example of the lexical construction is a predicate argument structure (valency pattern), e.g. Peter came to the party. We also document cases when the arguments are omitted or expressed outside their VP (or other predicate phrase), i.e. not syntactically related to their predicate directly. In addition, the non-core elements of frames such as adverbial adjuncts, negation, modal words, discursive particles are tagged within the sentence.  
+Russian FrameBank can be used as a training resource for semantic role labeling (SRL), machine translation (MT), question answering (QA), and other applications like natural language processing (NLP), information retrieval (IR), and text generation (TG).  
+Online version of the Russian FrameBank is available at: [http://framebank.ru](http://framebank.ru). 
+For data processing, a version of FrameBank was made available by Artem Shelmanov at: [http://nlp.isa.ru/framebank_parser/](http://nlp.isa.ru/framebank_parser).   
+Annotation guidelines are available at: http://framebank.wikispaces.com (in Russian).   
 
-===============================================================================
+===============================================================================  
 
-=== References ================================================================
-When using this resource, please cite the Russian FrameBank and one of the following papers: Lyashevskaya & Kashkin 2015a (in English) or Lyashevskaya & Kashkin 2015b (in Russian).
+=== References ================================================================  
+When using this resource, please cite the Russian FrameBank and one of the following papers: Lyashevskaya & Kashkin 2015a (in English) or Lyashevskaya & Kashkin 2015b (in Russian).  
  
-Key publications:
-In English:
-* Lyashevskaya, Olga, and Egor Kashkin. 2015a. FrameBank: a database of Russian lexical constructions. In M.Yu. Khachay, N. Konstantinova, A. Panchenko, D.I. Ignatov, G.V. Labunets (eds.), Analysis of Images, Social Networks and Texts. Fourth International Conference, AIST 2015, Yekaterinburg, Russia, April 9-11, 2015, Revised Selected Papers. Communications in Computer and Information Science, Vol. 542, Springer. Pp. 337-348.
-* Lyashevskaya Olga, and Egor Kashkin. 2014. Evaluation of frame-semantic role labeling in a case-marking language. Computational linguistics and intellectual technologies. Vol. 13 (20). Pp. 362-378. PDF: http://goo.gl/eeZFzx
-In Russian:
-* Lashevskaja, Olga, and Julia Kuznetsova. 2009. Russkij FrameNet: k zadache sozdanija korpusnogo slovarja konstrukcij [Russian FrameNet: towards a corpus-based dictionary of constructions]. In: Computational linguistics and intellectual technologies. Proceedings of International Workshop Dialogue'2009. Vol. 8 (15), 2009. Moscow: RGGU. Pp. 306-312. PDF: http://goo.gl/YCkcjz
-* Kashkin, Egor, and Olga Lyashevskaya. 2013. Semanticheskie roli i set' konstrukcij v sisteme FrameBank [Semantic roles and construction net in Russian FrameBank]. In: Computational linguistics and intellectual technologies. Proceedings of International Workshop Dialogue'2013. Vol. 12 (19), 2013. Moscow: RGGU. Pp. 325-343. PDF: http://goo.gl/hWjUaT
-* Lyashevskaya, Olga, and Egor Kashkin. 2015b. Tipy informacii o leksicheskikh konstrukcijakh v sisteme FrameBank [Annotation of lexical constructions in Russian FrameBank]. In Trudy Instituta russkogo jazyka imeni V.V.Vinogradova [Proceedings of Vinogradov Institute of the Russian Language]. Vol. 6, 2015. Pp. 464-555. PDF: http://goo.gl/eeWGNF
+## Key publications:  
+In English:  
+* Lyashevskaya, Olga, and Egor Kashkin. 2015a. FrameBank: a database of Russian lexical constructions. In M.Yu. Khachay, N. Konstantinova, A. Panchenko, D.I. Ignatov, G.V. Labunets (eds.), Analysis of Images, Social Networks and Texts. Fourth International Conference, AIST 2015, Yekaterinburg, Russia, April 9-11, 2015, Revised Selected Papers. Communications in Computer and Information Science, Vol. 542, Springer. Pp. 337-348.  
+* Lyashevskaya Olga, and Egor Kashkin. 2014. Evaluation of frame-semantic role labeling in a case-marking language. Computational linguistics and intellectual technologies. Vol. 13 (20). Pp. 362-378. [PDF](http://goo.gl/eeZFzx)  
+In Russian:  
+* Lashevskaja, Olga, and Julia Kuznetsova. 2009. Russkij FrameNet: k zadache sozdanija korpusnogo slovarja konstrukcij [Russian FrameNet: towards a corpus-based dictionary of constructions]. In: Computational linguistics and intellectual technologies. Proceedings of International Workshop Dialogue'2009. Vol. 8 (15), 2009. Moscow: RGGU. Pp. 306-312. [PDF](http://goo.gl/YCkcjz)  
+* Kashkin, Egor, and Olga Lyashevskaya. 2013. Semanticheskie roli i set' konstrukcij v sisteme FrameBank [Semantic roles and construction net in Russian FrameBank]. In: Computational linguistics and intellectual technologies. Proceedings of International Workshop Dialogue'2013. Vol. 12 (19), 2013. Moscow: RGGU. Pp. 325-343. [PDF](http://goo.gl/hWjUaT)  
+* Lyashevskaya, Olga, and Egor Kashkin. 2015b. Tipy informacii o leksicheskikh konstrukcijakh v sisteme FrameBank [Annotation of lexical constructions in Russian FrameBank]. In Trudy Instituta russkogo jazyka imeni V.V.Vinogradova [Proceedings of Vinogradov Institute of the Russian Language]. Vol. 6, 2015. Pp. 464-555. [PDF](http://goo.gl/eeWGNF)  
 
-COPYRIGHT NOTICE: The copyright of the texts used in the FrameBank samples belongs to their authors. The authors cited here (or their heirs) are kindly asked to contact olesar@yandex.ru in case they do not want their texts to be used in the Russian FrameBank.
+COPYRIGHT NOTICE: The copyright of the texts used in the FrameBank samples belongs to their authors. The authors cited here (or their heirs) are kindly asked to contact olesar@yandex.ru in case they do not want their texts to be used in the Russian FrameBank.  
 
-===============================================================================
+===============================================================================  
 
-=== Index of tables (offline release) =========================================
-All tables provided are in UTF-8, Unix (LF) line breaks, tab separated.
+=== Index of tables (offline release) =========================================  
+All tables provided are in UTF-8, Unix (LF) line breaks, tab separated.  
 
-Two main parts of the Russian FrameBank include:
-1. A dictionary of lexical constructions
-2. A corpus of annotated samples
+Two main parts of the Russian FrameBank include:  
+1. A dictionary of lexical constructions  
+2. A corpus of annotated samples  
 
-1.1. framebank_dict_cx.txt -- a dictionary of constructions: conscruction properties
-1.2. framebank_dict_cx_items.txt -- a dictionary of constructions: construction elements
+1.1. framebank_dict_cx.txt -- a dictionary of constructions: conscruction properties  
+1.2. framebank_dict_cx_items.txt -- a dictionary of constructions: construction elements  
 
-2.1. framebank_anno_ex_items.txt -- annotated samples: core frame elements annotation
-2.2  framebank_anno_ex_circ.txt -- annotated samples: non-core frame elements annotation
+2.1. framebank_anno_ex_items.txt -- annotated samples: core frame elements annotation  
+2.2  framebank_anno_ex_circ.txt -- annotated samples: non-core frame elements annotation  
 
-3.1  exampleindex.csv -- samples used, provided with lexico-grammatical and (sometimes) semantic groups annotation (RNC). Available from: https://cloud.mail.ru/public/5448/GWbqFPnwN
+3.1  exampleindex.csv -- samples used, provided with lexico-grammatical and (sometimes) semantic groups annotation (RNC). Available from: [https://cloud.mail.ru/public/5448/GWbqFPnwN](https://cloud.mail.ru/public/5448/GWbqFPnwN)    
 
 Supplementary materials:
 4.1  framebank_roles.txt -- a list of semantic roles 
