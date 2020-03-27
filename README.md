@@ -14,6 +14,7 @@ When using this resource, please cite the Russian FrameBank and one of the follo
 In English:  
 * Lyashevskaya, Olga, and Egor Kashkin. 2015a. FrameBank: a database of Russian lexical constructions. In M.Yu. Khachay, N. Konstantinova, A. Panchenko, D.I. Ignatov, G.V. Labunets (eds.), Analysis of Images, Social Networks and Texts. Fourth International Conference, AIST 2015, Yekaterinburg, Russia, April 9-11, 2015, Revised Selected Papers. Communications in Computer and Information Science, Vol. 542, Springer. Pp. 337-348.  
 * Lyashevskaya Olga, and Egor Kashkin. 2014. Evaluation of frame-semantic role labeling in a case-marking language. Computational linguistics and intellectual technologies. Vol. 13 (20). Pp. 362-378. [PDF](http://goo.gl/eeZFzx)  
+
 In Russian:  
 * Lashevskaja, Olga, and Julia Kuznetsova. 2009. Russkij FrameNet: k zadache sozdanija korpusnogo slovarja konstrukcij [Russian FrameNet: towards a corpus-based dictionary of constructions]. In: Computational linguistics and intellectual technologies. Proceedings of International Workshop Dialogue'2009. Vol. 8 (15), 2009. Moscow: RGGU. Pp. 306-312. [PDF](http://goo.gl/YCkcjz)  
 * Kashkin, Egor, and Olga Lyashevskaya. 2013. Semanticheskie roli i set' konstrukcij v sisteme FrameBank [Semantic roles and construction net in Russian FrameBank]. In: Computational linguistics and intellectual technologies. Proceedings of International Workshop Dialogue'2013. Vol. 12 (19), 2013. Moscow: RGGU. Pp. 325-343. [PDF](http://goo.gl/hWjUaT)  
