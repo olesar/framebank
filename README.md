@@ -1,30 +1,16 @@
-Russian FrameBank. Offline version
+## Russian FrameBank. Offline version
 
-=== Machine-readable metadata =================================================  
-Title: Russian FrameBank v.1.1  
-Documentation status: partial  
-Data source: manual  
-Data available since: 2016-08-07  
-License: GNU GPL 3.0  
-Genre: fiction news nonfiction science technology religion spoken  
-Contributors: Lyashevskaya, Olga; Kashkin, Egor; Kudinov, Mikhail; Grishina, Yulia; Kuznetsova, Julia; Solonina, Ekaterina; Koroleva, Anna; Belova, Maria; Petrenko, Anna; Rusanova, Anna; Pyatykhina, Alexandra-Maria; Philippova, Alexandra; Shayakhmetova, Elena; Chudinova, Anna; Zhadaev, Nikita; Shapiro, Maria; Polyanskaya, Lyubov; Sudarikova, Eugenia; Tarasov, Arseny; Minkevich, Boris; Buturlakina, Anastasia; Kapanina, Victoria; Deputatov, Eduard; Makasheva, Zarina; Blazhievskaya, Alexandra; Lityagina, Anna; Stepanova, Daria; Bobrova, Margarita; Astafieva, Irina; Azerkovich, Ilya; Zverev, Alexey; Abdurashitiva, Galina; many other students at the School of Linguistics, Higher School of Economics, Lomonosov Moscow State University, Russian State University for the Humanities; Sholokhov Moscow State University for the Humanities (Moscow, Russia)
-Affiliation: Vinogradov Russian Language Institute RAS (Moscow); National Research University Higher School of Economics (Moscow)  
-
-===============================================================================  
-
-=== About =====================================================================  
+### About FrameBank 
 The Russian FrameBank is a spin-off of the Russian National Corpus. It further enriches the samples taken from the Main and Spoken Corpora with the annotation of frames, semantic roles, lexico-semantic constraints, and morphosyntactic structures constituting a lexical constructions with a given verb, noun, adjective or adverb. A typical example of the lexical construction is a predicate argument structure (valency pattern), e.g. Peter came to the party. We also document cases when the arguments are omitted or expressed outside their VP (or other predicate phrase), i.e. not syntactically related to their predicate directly. In addition, the non-core elements of frames such as adverbial adjuncts, negation, modal words, discursive particles are tagged within the sentence.  
 Russian FrameBank can be used as a training resource for semantic role labeling (SRL), machine translation (MT), question answering (QA), and other applications like natural language processing (NLP), information retrieval (IR), and text generation (TG).  
 Online version of the Russian FrameBank is available at: [http://framebank.ru](http://framebank.ru). 
-For data processing, a version of FrameBank was made available by Artem Shelmanov at: [http://nlp.isa.ru/framebank_parser/](http://nlp.isa.ru/framebank_parser).   
+For data processing, a version of FrameBank was made available by Artem Shelmanov at: [http://nlp.isa.ru/framebank_parser/](http://nlp.isa.ru/framebank_parser) and [https://github.com/IINemo/isanlp_srl_framebank](https://github.com/IINemo/isanlp_srl_framebank).   
 Annotation guidelines are available at: http://framebank.wikispaces.com (in Russian).   
 
-===============================================================================  
-
-=== References ================================================================  
+#### References 
 When using this resource, please cite the Russian FrameBank and one of the following papers: Lyashevskaya & Kashkin 2015a (in English) or Lyashevskaya & Kashkin 2015b (in Russian).  
  
-## Key publications:  
+#### Key publications:  
 In English:  
 * Lyashevskaya, Olga, and Egor Kashkin. 2015a. FrameBank: a database of Russian lexical constructions. In M.Yu. Khachay, N. Konstantinova, A. Panchenko, D.I. Ignatov, G.V. Labunets (eds.), Analysis of Images, Social Networks and Texts. Fourth International Conference, AIST 2015, Yekaterinburg, Russia, April 9-11, 2015, Revised Selected Papers. Communications in Computer and Information Science, Vol. 542, Springer. Pp. 337-348.  
 * Lyashevskaya Olga, and Egor Kashkin. 2014. Evaluation of frame-semantic role labeling in a case-marking language. Computational linguistics and intellectual technologies. Vol. 13 (20). Pp. 362-378. [PDF](http://goo.gl/eeZFzx)  
@@ -35,9 +21,7 @@ In Russian:
 
 COPYRIGHT NOTICE: The copyright of the texts used in the FrameBank samples belongs to their authors. The authors cited here (or their heirs) are kindly asked to contact olesar@yandex.ru in case they do not want their texts to be used in the Russian FrameBank.  
 
-===============================================================================  
-
-=== Index of tables (offline release) =========================================  
+### Index of tables (offline release)  
 All tables provided are in UTF-8, Unix (LF) line breaks, tab separated.  
 
 Two main parts of the Russian FrameBank include:  
@@ -55,11 +39,9 @@ Two main parts of the Russian FrameBank include:
 Supplementary materials:
 4.1  framebank_roles.txt -- a list of semantic roles 
 
-RELEASE NOTES: A lot of information on word coordinates, word order, sentences underlying annotation, document properties such as author, creation time, register etc. is not available in the current offline release. Please contact olesar@yandex.ru of you need these data.
+RELEASE NOTE: A lot of information on word coordinates, word order, sentences underlying annotation, document properties such as author, creation time, register etc. is not available in the current offline release. Please contact olesar@yandex.ru of you need these data.
 
-===============================================================================
-
-=== Table structure ===========================================================
+### Table structure  
 ===
 1.1. framebank_dict_cx.txt -- a dictionary of constructions: conscruction properties
 ===
@@ -148,17 +130,29 @@ NOTES: Includes core roles (ca. 100-150 roles), metaphorical roles, mixed roles,
 "Mixed roles" are those where the participant plays both roles simultaniously. "Double roles" are those where the participant plays either one role or another depending on the situation. 
 
 
-=== Feedback ==================================================================
+### Feedback 
 Any feedback on annotation errors and possible improvements (taking into consideration your particular task) is much welcome. Use olesar@yandex.ru to share your experience with the Russian FrameBank.
 
-===============================================================================
-
-=== Other resources for Russian NLP ===========================================
+### Other resources for Russian NLP 
 Russian National Corpus: http://ruscorpora.ru
 NLPub, a catalogue of resources available for Russian and other languages: https://nlpub.ru/
 RU-EVAL, Russian NLP evaluation resources: http://ru-eval.ru
 Univesal Dependencies for Russian: http://universaldependencies.org/
 
 ===============================================================================
+
+=== Machine-readable metadata =================================================  
+Title: Russian FrameBank v.1.1  
+Documentation status: partial  
+Data source: manual  
+Data available since: 2016-08-07  
+License: GNU GPL 3.0  
+Genre: fiction news nonfiction science technology religion spoken  
+Contributors: Lyashevskaya, Olga; Kashkin, Egor; Kudinov, Mikhail; Grishina, Yulia; Kuznetsova, Julia; Solonina, Ekaterina; Koroleva, Anna; Belova, Maria; Petrenko, Anna; Rusanova, Anna; Pyatykhina, Alexandra-Maria; Philippova, Alexandra; Shayakhmetova, Elena; Chudinova, Anna; Zhadaev, Nikita; Shapiro, Maria; Polyanskaya, Lyubov; Sudarikova, Eugenia; Tarasov, Arseny; Minkevich, Boris; Buturlakina, Anastasia; Kapanina, Victoria; Deputatov, Eduard; Makasheva, Zarina; Blazhievskaya, Alexandra; Lityagina, Anna; Stepanova, Daria; Bobrova, Margarita; Astafieva, Irina; Azerkovich, Ilya; Zverev, Alexey; Abdurashitiva, Galina; many other students at the School of Linguistics, Higher School of Economics, Lomonosov Moscow State University, Russian State University for the Humanities; Sholokhov Moscow State University for the Humanities (Moscow, Russia)
+Affiliation: Vinogradov Russian Language Institute RAS (Moscow); National Research University Higher School of Economics (Moscow)  
+
+===============================================================================  
+
+
 
 @ Russian FrameBank v.1.0, 2016
